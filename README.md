@@ -9,10 +9,11 @@ This project demonstrates an **end-to-end Data Engineering pipeline** built usin
 - **Azure Data Lake Gen2** (Storage)
 - **Databricks** (Transformation & Delta Lake)
 
+
 ---
 
 ## **📌 Architecture**
-![Pipeline Diagram](<img width="940" alt="Project architecture" src="https://github.com/user-attachments/assets/ce55b14d-e916-4391-a15e-becda6343d9e" />)  
+![Pipeline Diagram](<img width="940" alt="Project architecture" src="https://github.com/user-attachments/assets/4f158a9d-412c-4299-ad1d-9259021c4c64" />)  
 
 ---
 
@@ -20,8 +21,7 @@ This project demonstrates an **end-to-end Data Engineering pipeline** built usin
 ### **🔹 Ingestion Layer (Bronze)**
 - Used **Azure Data Factory V2** to ingest data from a **Taxi Data API**.
 - Created **pipelines using `ForEach`** activity to handle multiple API links dynamically.
-- Stored raw **Parquet files in the Bronze Layer** (`/mnt/bronze`).![Uploading Project architecture.png…]()
-
+- Stored raw **Parquet files in the Bronze Layer** (`/mnt/bronze`).
 
 ### **🔸 Transformation Layer (Silver)**
 - Processed data in **Databricks Notebooks**:
@@ -47,4 +47,4 @@ LOCATION '/mnt/gold/trip_zone_delta';
 DESCRIBE HISTORY gold.trip_zone_delta;
 
 -- Time Travel (Retrieve old version)
-SELECT * FROM gold.trip_zone_delta VERSION AS OF 2;
+SELECT * FROM gold.trip_zone_delta VERSION AS OF 1;
