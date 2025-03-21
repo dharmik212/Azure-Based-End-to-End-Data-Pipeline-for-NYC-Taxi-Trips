@@ -1,6 +1,0 @@
-selected resource name:		nycWebtoDL
-selected resource type:		pipeline
-factory name:			adf-nyctaxi-datafactory
-factory location:		eastus
-subscription id:		0f9e887a-c750-4877-b70c-38831e5f9cb3
-time of download (UTC):		Fri, 21 Mar 2025 23:29:41 GMT
