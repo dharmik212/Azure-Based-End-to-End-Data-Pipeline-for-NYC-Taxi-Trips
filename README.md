@@ -13,7 +13,7 @@ This project demonstrates an **end-to-end Data Engineering pipeline** built usin
 ---
 
 ## **📌 Architecture**
-[Pipeline Diagram] <img width="940" alt="Project architecture" src="https://github.com/user-attachments/assets/4f158a9d-412c-4299-ad1d-9259021c4c64" />  
+**Pipeline Diagram** <img width="940" alt="Project architecture" src="https://github.com/user-attachments/assets/4f158a9d-412c-4299-ad1d-9259021c4c64" />  
 
 ---
 
