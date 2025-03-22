@@ -1,4 +1,4 @@
-# 🚖 Azure Taxi Data Pipeline (Bronze → Silver → Gold)
+# 🚖 Taxi Data Pipeline using Azure (Bronze → Silver → Gold)
 
 This project demonstrates an **end-to-end Data Engineering pipeline** built using **Azure Services** to process **Taxi Data from an API**. The pipeline follows a **Medallion Architecture (Bronze, Silver, Gold)** and enables **data versioning, time-travel, and reporting with Delta Lake**.
 
